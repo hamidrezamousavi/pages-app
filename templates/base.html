@@ -1,0 +1,12 @@
+<!-- templates/base.html -->
+<header>
+<a href="{% url 'home' %}">Home</a> | <a href="{% url 'about' %}">About</a>
+</header>
+
+<p>
+test
+</p>
+
+{% block content %}
+<h2>thia is a test</h2>
+{% endblock content %}
